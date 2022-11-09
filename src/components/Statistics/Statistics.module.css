@@ -1,9 +1,9 @@
 .statistics {
     width: 340px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #fff;
 }
 
 .title {
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-around;
     padding: 15px;
-    background-color: #abb1b4;
+    background-color:#02c3ff;
 }
 
 .label {

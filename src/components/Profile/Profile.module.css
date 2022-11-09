@@ -12,6 +12,7 @@
     padding: 50px 0px 30px;
     text-align: center;
 }
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -45,6 +46,10 @@ ul{
     padding: 15px;
     width: calc((100%-40px)/3);
     outline: 0.5px solid lightgrey;
+}
+
+.stats li:hover {
+    box-shadow: 0px 0px 10px 0px #02c3ff;
 }
 
 .label {
