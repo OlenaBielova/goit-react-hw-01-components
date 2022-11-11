@@ -1,29 +1,30 @@
 .transaction_history {
-    width: 340px;
-    margin-right: auto;
-    margin-left: auto;
-    border-collapse: collapse;
-    background-color: lightgrey;
+  width: 340px;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  background-color: lightgrey;
 }
 
-.transaction_history td, .transaction_history th {
-    border: 1px solid #ddd;
-    padding: 8px;
+.transaction_history td,
+.transaction_history th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
 .transaction_history th {
-    background-color: #02c3ff;
+  background-color: #02c3ff;
 }
 
 .transaction_history tr:nth-child(even) {
-    background-color: #d9f6ff;
+  background-color: #d9f6ff;
 }
 
 .transaction_history tr:nth-child(odd) {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .transaction_history tr:hover {
-    background-color: #02c3ff;
-    cursor: pointer;
+  background-color: #02c3ff;
+  cursor: pointer;
 }
